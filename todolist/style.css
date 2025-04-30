@@ -1,0 +1,61 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+background: rgb(97, 30, 30);
+display: flex;
+justify-content: center;
+padding: 50px;
+}
+
+.container{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+h1{
+    text-align: center;
+}
+
+.input-section{
+display: flex;
+gap: 10px;
+margin-bottom: 20px;
+}
+
+input{
+    flex: 1;
+    padding: 8px;
+}
+
+button{
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    background: red;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li span{
+    flex: 1;
+}
+
+li button{
+    background: yellow;
+    color: green;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
