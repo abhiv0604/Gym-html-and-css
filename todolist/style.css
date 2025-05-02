@@ -39,7 +39,7 @@ ul{
 }
 
 li{
-    background: red;
+    background: rgb(123, 75, 75);
     margin-bottom: 10px;
     padding: 8px;
     border-radius: 5px;
@@ -52,8 +52,8 @@ li span{
 }
 
 li button{
-    background: yellow;
-    color: green;
+    background: rgb(113, 113, 69);
+    color: rgb(166, 202, 166);
     border: none;
     padding: 4px 8px;
     border-radius: 5px;
