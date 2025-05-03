@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: beige;
+    color: #333;
+}
+
+header{
+    background: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    animation: slidedown 1s ease;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 0 15px;
+font-weight: bold;
+}
+
+.Hero{
+text-align: center;
+padding: 60px 20px;
+background: linear-gradient(to right,#74ebd5, #acb6e5);
+animation: fadeIn 2s ease; 
+}
+
+.Hero .btn{
+display: inline-block;
+margin-top: 20px;
+background: black;
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+}
+
+.Products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+.product{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100px;
+    text-align: center
+}
+
+.product img{
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    border-radius: 5px;
+}
+
+.h3{
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.product p{
+    font-size: 0.9em;
+    color: #666;
+}
+
+.product .btn{
+    background: #28a745;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.product .btn:hover{
+background: #218838;
+}
+footer{
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

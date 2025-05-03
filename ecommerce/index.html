@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ShopEase</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">Products</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+    <section class="Hero">
+        <h2>Big Sale Today!</h2>
+        <p>Up to 50% off on top Products</p>
+        <a href="#" class="btn">Shop Now</a>
+    </section>
+
+    <section class="Products">
+        <div class="product">
+            <img src="C:\Users\Abhilash\OneDrive\Desktop\jspractice\Gym-html-and-css\ecommerce\headphones.jpg" alt="Headphones">
+            <h3>Headphones</h3>
+            <p>₹1000</p>
+            <button class="btn" onclick="addToCart('Headphones')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="C:\Users\Abhilash\OneDrive\Desktop\jspractice\Gym-html-and-css\ecommerce\shoes.jpg" alt="Shoes">
+            <h3>Shoes</h3>
+            <p>₹2000</p>
+            <button class="btn" onclick="addToCart('Shoes')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="C:\Users\Abhilash\OneDrive\Desktop\jspractice\Gym-html-and-css\ecommerce\watch.jpg" alt="Watch">
+            <h3>Watch</h3>
+            <p>₹1500</p>
+            <button class="btn" onclick="addToCart('Watch')">Add to Cart</button>
+        </div>
+    </section>
+    <section class="Cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <button id="clear-cart" class="btn">Clear Cart</button>
+    </section>
+
+    <footer>
+        &copy; 2025 ShopEase. All rights reserved.
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
